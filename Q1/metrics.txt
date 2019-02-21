@@ -1,0 +1,6 @@
+Average node degree = 3.001
+	Degree of a node is number of edges incident on the node. So, we can say that each of the 300 most popular movies in comedy genre, on an average has 3 similar movies in the given data file.
+Diameter of the graph = 16
+	It is the maximum distance between any two nodes.
+Average path length = 6.905
+	It is the average distance between all pairs of nodes.

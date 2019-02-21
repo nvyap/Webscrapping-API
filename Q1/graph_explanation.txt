@@ -1,0 +1,11 @@
+After loading the data, Force Atlas layout has been used to reduce node overlapping.
+Initially Force Atlas has been run till a desired shape has been reached.
+Then the metrics Repulsion strength has been changed to 1000 and Autostab Strength to 500 to reduce node overlapping.
+Then adjust by sizes has been selected and Force Atlas has been run again to reduce node overlapping.
+After that since overlapping is still observed, Noverlap layout has been run to further reduce node overlap.
+The sizes of the nodes and the color of the nodes have been ranked according to Clustering Coefficient. This is to signify how well connected the node is with all other nodes in the network.The size range used is [5,50]
+The Statistics have been calculated by using features in statistics tab and the same have been presented in metrics.txt file.
+The Label column is populated using copy data to other column and copying data from id to label.
+The labels have been displayed using the Label column. The label sizes have also been ranked using clustering coefficient.
+
+
